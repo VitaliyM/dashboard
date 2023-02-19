@@ -1,0 +1,77 @@
+<!-- 22:50-00:00 -->
+<!-- 09:45-10:05 -->
+<!-- 16:15-19:30 -->
+<!-- https://www.figma.com/file/Rya0Q6tjdeQA9iQe4BlGHl/CRM-Dashboard-Customers?node-id=0%3A1&t=vyItHBSyPIMxUI3W-0 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <aside class="aside-block">
+        <div class="aside-block__logo">v.01</div>
+        <div class="aside-block__navbar navbar-block">
+            <div class="navbar-block__list navbar-block__list--dashboard">Dashboard</div>
+            <div class="navbar-block__list navbar-block__list--product">Product</div>
+            <div class="navbar-block__list navbar-block__list--customer">Customers</div>
+            <div class="navbar-block__list navbar-block__list--income">Income</div>
+            <div class="navbar-block__list navbar-block__list--promote">Promote</div>
+            <div class="navbar-block__list navbar-block__list--help">Help</div>
+        </div>
+    </aside>
+    <main class="main-block">
+        <div class="main-block__header">Hello Evano 👋🏼,</div>
+        <div class="main-block_customers customers-block">
+            <div class="customers-block__header">
+                <div class="customers-header__text">
+                    <div class="customers-header__all-customers">All Customers</div>
+                    <div class="customers-header__active-members">Active Members</div>
+                </div>
+                <input type="search" placeholder="Search" name="Search" class="customers-header__search">
+            </div>
+            <div class="customers-data">
+                <div class="customers-data__header">
+                    <div class="customers-data__customers-name">Customer Name</div>
+                    <div class="customers-data__customers-company">Company</div>
+                    <div class="customers-data__customers-phone">Phone Number</div>
+                    <div class="customers-data__customers-email">Email</div>
+                    <div class="customers-data__customers-country">Country</div>
+                    <div class="customers-data__customers-status">Status</div>
+                </div>
+                <div class="customers-data__text">
+                    <div class="customer-block">
+                        <div class="customer-block__name">Jane Cooper</div>
+                        <div class="customer-block__company">Microsoft</div>
+                        <div class="customer-block__phone">(225) 555-0118</div>
+                        <div class="customer-block__email">jane@microsoft.com</div>
+                        <div class="customer-block__country">United States</div>
+                        <div class="status-block">
+                            <input type="checkbox" name="statusBtn" class="status-block__check">
+                            <button class="status-block__btn">Active</button>
+                        </div>
+                    </div>
+                    <div class="customer-block">
+                        <div class="customer-block__name">Floyd Miles</div>
+                        <div class="customer-block__company">Yahoo</div>
+                        <div class="customer-block__phone">(205) 555-0100</div>
+                        <div class="customer-block__email">floyd@yahoo.com</div>
+                        <div class="customer-block__country">Kiribati</div>
+                        <div class="status-block">
+                            <input type="checkbox" checked name="statusBtn" class="status-block__check">
+                            <button class="status-block__btn">Active</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
