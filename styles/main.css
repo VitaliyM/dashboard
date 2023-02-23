@@ -17,22 +17,23 @@ body {
 
 .aside-block {
     background: #ffffff;
-    width: 22%;
+    width: 21.2%;
     height: inherit;
+    margin-right: 5%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
 .aside-block__logo {
-    background: url(./../images/logo.png) no-repeat left center;
-    width: 100%;
-    height: 39px;
+    background: url(./../images/logo.png) no-repeat 58% center;
+    width: 80%;
+    height: 34px;
     margin-top: 39px;
-    padding-left: 110px;
-    padding-bottom: 6px;
+    /* padding-left: 155px; */
+    padding-bottom: 4px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
     font-family: 'Poppins';
     font-size: 10px;
@@ -42,8 +43,9 @@ body {
 }
 
 .aside-block__navbar {
-    width: 90%;
+    width: 91%;
     margin-top: 65px;
+    padding-left: 9%;
     display: flex;
     flex-direction: column;
 }
@@ -52,7 +54,7 @@ body {
     border-radius: 8px;
     width: 100%;
     height: 46px;
-    padding-left: 49px;
+    padding-left: 77px;
     font-family: 'Poppins';
     font-size: 14px;
     line-height: 46px;
