@@ -12,28 +12,27 @@
 body {
     background: #FAFBFF;
     display: flex;
+    justify-content: space-between;
 }
 
 .aside-block {
     background: #ffffff;
-    width: 306px;
-    margin-right: 71px;
+    width: 22%;
     height: inherit;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .aside-block__logo {
     background: url(./../images/logo.png) no-repeat left center;
-    width: 220px;
+    width: 100%;
     height: 39px;
-    margin-left: -23px;
     margin-top: 39px;
+    padding-left: 110px;
     padding-bottom: 6px;
-    padding-right: 5px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
     font-family: 'Poppins';
     font-size: 10px;
@@ -43,6 +42,7 @@ body {
 }
 
 .aside-block__navbar {
+    width: 90%;
     margin-top: 65px;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@ body {
 
 .navbar-block__list {
     border-radius: 8px;
-    width: 250px;
+    width: 100%;
     height: 46px;
     padding-left: 49px;
     font-family: 'Poppins';
@@ -124,7 +124,8 @@ body {
 
 
 .main-block {
-    margin-left: 71px;
+    width: 68%;
+    margin-right: 25px;
     display: flex;
     flex-direction: column;
 }
@@ -141,10 +142,11 @@ body {
 .main-block_customers {
     border-radius: 30px;
     box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
-    width: 968px;
+    /* width: 968px; */
     height: 812px;
     margin-top: 51px;
     padding-bottom: 40px;
+    padding-right: 32px;
     display: flex;
     flex-direction: column;
 }
@@ -203,31 +205,34 @@ body {
 
 .customers-data__customers-name,
 .customer-block__name {
-    width: 172px;
+    width: 21.1%;
 }
 
 .customers-data__customers-company,
 .customer-block__company {
-    width: 131px;
+    width: 19.6%;
 }
 
 .customers-data__customers-phone,
 .customer-block__phone {
-    width: 156px;
+    width: 23.1%;
 }
 
 .customers-data__customers-email,
 .customer-block__email {
-    width: 207px;
+    width: 32%;
 }
 
 .customers-data__customers-country,
 .customer-block__country {
-    width: 152px;
+    width: 27%;
 }
 
 .customers-data__text {
     padding-left: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
 }
 
 .customer-block {
