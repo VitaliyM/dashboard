@@ -2,6 +2,10 @@
     width: 6.2%;
 }
 
+.aside-block:hover {
+    width: 21.2%;
+}
+
 .aside-block__logo {
     background-position: 0 top;
     background-size: auto;
