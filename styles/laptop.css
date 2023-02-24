@@ -11,6 +11,10 @@
     padding-left: 0;
 }
 
+.navbar-block__list {
+    padding-left: 30%;
+}
+
 .main-block {
     width: 76%;
     margin-right: 1%;
