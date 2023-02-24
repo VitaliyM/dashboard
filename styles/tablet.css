@@ -1,0 +1,15 @@
+.aside-block {
+    width: 6.2%;
+}
+
+.aside-block__logo {
+    background-position: 0 top;
+    background-size: auto;
+    height: 49px;
+    width: 95%;
+}
+
+.navbar-block__list {
+    overflow: hidden;
+    padding-left: 47px;
+}
