@@ -299,6 +299,10 @@ body {
 }
 
 
+.cusromer-block__mob-size {
+    display: none;
+}
+
 
 .customers-block__pages {
     margin-top: auto;
