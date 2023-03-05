@@ -1,4 +1,12 @@
+body {
+    justify-content: center;
+}
+
 .aside-block {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
     width: 6.2%;
 }
 
@@ -8,6 +16,11 @@
 
 .aside-block:hover  .aside-block__logo {
     background-size: contain;
+}
+
+.aside-block:hover  .aside-block__manager {
+    display: flex;
+    padding-left: 47px;
 }
 
 .aside-block__logo {
@@ -20,6 +33,16 @@
 .navbar-block__list {
     overflow: hidden;
     padding-left: 47px;
+}
+
+.aside-block__manager {
+    left: 5px;
+    display: none;
+}
+
+.main-block {
+    width: 83%;
+    margin: 0 auto;
 }
 
 .customer-block {

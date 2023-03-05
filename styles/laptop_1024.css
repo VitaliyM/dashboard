@@ -15,6 +15,10 @@
     padding-left: 30%;
 }
 
+.aside-block__manager {
+    left: 15px;
+}
+
 .main-block {
     width: 76%;
     margin-right: 1%;

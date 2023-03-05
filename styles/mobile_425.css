@@ -1,0 +1,15 @@
+.customers-block__header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 0 0;
+}
+
+.customers-header__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customers-header__search {
+    width: 80%;
+}

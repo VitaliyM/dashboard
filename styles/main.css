@@ -18,8 +18,9 @@ body {
 .aside-block {
     background: #ffffff;
     width: 21.2%;
-    height: inherit;
-    margin-right: 5%;
+    height: 1198px;
+    margin-right: 2.9%;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -44,17 +45,18 @@ body {
 
 .aside-block__navbar {
     width: 91%;
-    margin-top: 65px;
+    margin-top: 54px;
     padding-left: 9%;
     display: flex;
     flex-direction: column;
+    gap: 18px 0;
 }
 
 .navbar-block__list {
     border-radius: 8px;
     width: 100%;
     height: 46px;
-    padding-left: 77px;
+    padding-left: 49px;
     font-family: 'Poppins';
     font-size: 14px;
     line-height: 46px;
@@ -71,59 +73,86 @@ body {
 
 
 .navbar-block__list--dashboard {
-    background: url(./../images/key-square.png) no-repeat 13px center;
+    background: url(./../images/key-square.png) no-repeat 12px center;
 }
 
 .navbar-block__list--dashboard:hover {
-    background: #5932EA url(./../images/key-square-active.png) no-repeat 13px center;
+    background: #5932EA url(./../images/key-square-active.png) no-repeat 12px center;
 }
 
 
 .navbar-block__list--product {
-    background: url(./../images/3d-square\ 1.png) no-repeat 13px center;
+    background: url(./../images/3d-square\ 1.png) no-repeat 12px center;
 }
 
 .navbar-block__list--product:hover {
-    background: #5932EA url(./../images/3d-square-1-active.png) no-repeat 13px center;
+    background: #5932EA url(./../images/3d-square-1-active.png) no-repeat 12px center;
 }
 
 
 .navbar-block__list--customer {
-    background: url(./../images/user-square-1.png) no-repeat 13px center;
+    background: url(./../images/user-square-1.png) no-repeat 12px center;
 }
 
 .navbar-block__list--customer:hover {
-    background: #5932EA url(./../images/user-square\ 1\ active.png) no-repeat 13px center;
+    background: #5932EA url(./../images/user-square\ 1\ active.png) no-repeat 12px center;
 }
 
 
 .navbar-block__list--income {
-    background: url(./../images/wallet-money\ 2.png) no-repeat 13px center;
+    background: url(./../images/wallet-money\ 2.png) no-repeat 12px center;
 }
 
 .navbar-block__list--income:hover {
-    background: #5932EA url(./../images/wallet-money-2-active.png) no-repeat 13px center;
+    background: #5932EA url(./../images/wallet-money-2-active.png) no-repeat 12px center;
 }
 
 
 .navbar-block__list--promote {
-    background: url(./../images/discount-shape\ 1.png) no-repeat 13px center;
+    background: url(./../images/discount-shape\ 1.png) no-repeat 12px center;
 }
 
 .navbar-block__list--promote:hover {
-    background: #5932EA url(./../images/discount-shape-1-active.png) no-repeat 13px center;
+    background: #5932EA url(./../images/discount-shape-1-active.png) no-repeat 12px center;
 }
 
 
 .navbar-block__list--help {
-    background: url(./../images/message-question\ 1.png) no-repeat 13px center;
+    background: url(./../images/message-question\ 1.png) no-repeat 12px center;
 }
 
 .navbar-block__list--help:hover {
-    background: #5932EA url(./../images/message-question-1-active.png) no-repeat 13px center;
+    background: #5932EA url(./../images/message-question-1-active.png) no-repeat 12px center;
 }
 
+.aside-block__manager {
+    background: url(../images/manager.png) no-repeat left center;    
+    position: absolute;
+    left: 28px;
+    bottom: 76px;
+    width: 155px;
+    height: 42px;
+    padding-left: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.manager__name {
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.manager__position {
+    font-family: 'Poppins';
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
 
 .main-block {
     width: 67.2%;
@@ -142,19 +171,18 @@ body {
 }
 
 .main-block_customers {
+    background: #ffffff;
     border-radius: 30px;
     box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
-    /* width: 968px; */
     height: 812px;
     margin-top: 51px;
     padding-bottom: 40px;
-    padding-right: 32px;
     display: flex;
     flex-direction: column;
 }
 
 .customers-block__header {
-    padding: 30px 53px 0 38px;
+    padding: 30px 5.4% 0 38px;
     display: flex;
     justify-content: space-between;
 }
@@ -163,7 +191,7 @@ body {
     font-family: 'Poppins';
     font-size: 22px;
     line-height: 33px;
-    letter-spacing: -0.01em;
+    letter-spacing: 0.01em;
     color: #000000;
 }
 
@@ -178,8 +206,10 @@ body {
 
 .customers-header__search {
     background: #F9FBFF url(./../images/search\ 1.png) no-repeat 8px center;
+    border: none;
     border-radius: 10px;
-    padding-left: 35px;
+    margin-top: 14px;
+    padding-left: 40px;
     width: 216px;
     height: 38px;
     font-family: 'Poppins';
@@ -198,7 +228,7 @@ body {
     border-bottom: 1px solid #EEEEEE;
     height: 35px;
     padding-left: 38px;
-    padding-right: 47px;
+    padding-right: 35px;
     display: flex;
     font-family: 'Poppins';
     font-size: 14px;
@@ -207,29 +237,24 @@ body {
     color: #B5B7C0;
 }
 
-.customers-data__customers-name,
-.customer-block__name {
-    width: 25.1%;
+.customers-data__customers-name {
+    width: 19.3%;
 }
 
-.customers-data__customers-company,
-.customer-block__company {
-    width: 19.1%;
+.customers-data__customers-company {
+    width: 14.6%;
 }
 
-.customers-data__customers-phone,
-.customer-block__phone {
+.customers-data__customers-phone {
+    width: 17.5%;
+}
+
+.customers-data__customers-email {
     width: 23.1%;
 }
 
-.customers-data__customers-email,
-.customer-block__email {
-    width: 30.3%;
-}
-
-.customers-data__customers-country,
-.customer-block__country {
-    width: 22.2%;
+.customers-data__customers-country {
+    width: 17.1%;
 }
 
 .customers-data__text {
@@ -251,6 +276,26 @@ body {
     font-weight: bold;
     letter-spacing: -0.01em;
     color: #292D32;
+}
+
+.customer-block__name {
+    width: 19.2%;
+}
+
+.customer-block__company {
+    width: 14.6%;
+}
+
+.customer-block__phone {
+    width: 17.3%;
+}
+
+.customer-block__email {
+    width: 23%;
+}
+
+.customer-block__country {
+    width: 15.5%;
 }
 
 .status-block {
@@ -294,6 +339,7 @@ body {
     background: #FFC5C5;
     color: #DF0404;
 }
+
 .status-block__check:checked+.status-block__btn::after {
     content: "Inactive";
 }
@@ -314,22 +360,15 @@ body {
 .pages-block__showing {
     font-family: 'Poppins';
     font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -0.01em;
+    line-height: 24px;
     color: #B5B7C0;
 }
 
 .pages-block__navigation {
-    width: 271px;
+    width: 270px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.navigation__buttons {
-    display: flex;
-    justify-content: space-between;
-    gap: 12px;
 }
 
 .button {
@@ -344,7 +383,6 @@ body {
     font-family: 'Poppins';
     font-size: 12px;
     line-height: 100%;
-    letter-spacing: -0.01em;
     color: #404B52;
     transition: all 0.2s linear 0.1s;
 }
@@ -356,6 +394,12 @@ body {
     transition: all 0.2s linear 0.1s;
 }
 
+.navigation__buttons {
+    width: 72%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .button--dots {
     background: none;
     border: none;
@@ -364,6 +408,6 @@ body {
     font-family: 'Poppins';
     font-size: 12px;
     line-height: 100%;
-    letter-spacing: -0.01em;
+    letter-spacing: 0.01em;
     color: #000000;
 }
