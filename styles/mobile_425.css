@@ -32,10 +32,9 @@
     gap: 4px;
     position: absolute;
     right: 5px;
-    top: -4px;
+    top: calc(50% - 22px);
     align-items: center;
-    justify-content: center:
-    line-height: 4;
+    justify-content: center;
 }
 
 .mobile-btn__three-line {
