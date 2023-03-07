@@ -43,6 +43,10 @@ body {
     color: #838383;
 }
 
+.aside-logo__mobile-btn {
+    display: none;
+}
+
 .aside-block__navbar {
     width: 91%;
     margin-top: 54px;

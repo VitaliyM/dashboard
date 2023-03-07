@@ -1,3 +1,71 @@
+.aside-block {
+    background: #e3e3e3;
+    height: 55px;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+
+/* .aside-block:hover {
+    height: 410px;
+    width: 100%;
+} */
+
+/* .aside-block:hover .aside-block__manager {
+    display: flex;
+} */
+
+.aside-block__logo {
+    margin-top: 10px;
+
+}
+
+.aside-logo__mobile-btn {
+    border: 2px solid;
+    display: block;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    right: 5px;
+    top: -4px;
+    text-align: center;
+    line-height: 4;
+}
+
+.aside-block__navbar {
+    margin-top: 35px;
+    padding-left: 7%;
+}
+
+.navbar-block__list {
+    font-size: 17px;
+}
+
+.aside-block__manager {
+    left: 7%;
+    bottom: 10px;
+    display: none;
+}
+
+
+
+
+.main-block {
+    width: 90%;
+    padding-top: 80px;
+}
+
+.main-block__header {
+    margin-top: 0;
+}
+
+
+
+
+.main-block_customers {
+    margin-top: 25px;
+}
+
 .customers-block__header {
     flex-direction: column;
     align-items: center;
@@ -12,4 +80,50 @@
 
 .customers-header__search {
     width: 80%;
+}
+
+
+
+
+.customers-data__header {
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.customers-data__customers-name {
+    width: 38%;
+}
+
+.customers-data__customers-country {
+    width: 30%;
+}
+
+.customers-data__customers-status {
+    width: 22%;
+}
+
+
+
+
+
+.customers-data__text {
+    padding-right: 15px;
+}
+
+.customer-block {
+    padding-top: 15px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.customer-block__name {
+    width: 30%;
+}
+
+.customer-block__country {
+    width: 30%;
+}
+
+.status-block {
+    width: 25%;
 }
