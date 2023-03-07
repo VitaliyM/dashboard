@@ -17,19 +17,23 @@
 
 .aside-block__logo {
     margin-top: 10px;
-
+    min-height: 39px;
+    align-items: flex-end;
+    justify-content: center;
+    padding-left: 30px;
 }
 
 .aside-logo__mobile-btn {
     border: 2px solid;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
     position: absolute;
     right: 5px;
-    top: -4px;
+    top: calc(50% - 22px);
     text-align: center;
-    line-height: 4;
 }
 
 .aside-block__navbar {
