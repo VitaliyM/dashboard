@@ -4,5 +4,7 @@ let asideLogo = document.querySelector('.aside-block__logo');
 let asideManager = document.querySelector('.aside-block__manager');
 
 let showMenu = () => {
-    console.log("Hello");
+    alert("Hello");
 }
+
+mobileMenuBtn.onclick = showMenu;
