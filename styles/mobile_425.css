@@ -21,6 +21,7 @@
 } */
 
 .aside-block__logo {
+    background-size: contain;
     margin-top: 10px;
     margin-bottom: 10px;
     min-height: 39px;
