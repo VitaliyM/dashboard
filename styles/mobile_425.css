@@ -6,23 +6,23 @@
     align-items: center;
 }
 
-.aside-block:hover {
+/* .aside-block:hover {
     height: 420px;
     width: 100%;
-}
+} */
 
-.aside-block:hover .aside-block__logo {
+/* .aside-block:hover .aside-block__logo {
     padding-left: 135px;
-    margin-bottom: 10px;
 }
 
 .aside-block:hover .aside-block__manager {
     display: flex;
     left: 10px;
-}
+} */
 
 .aside-block__logo {
     margin-top: 10px;
+    margin-bottom: 10px;
     min-height: 39px;
     align-items: flex-end;
     justify-content: center;
@@ -60,7 +60,7 @@
 }
 
 .aside-block__manager {
-    left: 7%;
+    left: 10px;
     bottom: 10px;
     display: none;
 }
