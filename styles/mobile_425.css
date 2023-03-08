@@ -1,3 +1,7 @@
+.aside-block:not(:hover) {
+    width: 100%;
+}
+
 .aside-block {
     background: #e3e3e3;
     height: 55px;

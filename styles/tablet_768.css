@@ -10,15 +10,15 @@ body {
     width: 6.2%;
 }
 
-.aside-block-hover:hover {
+.aside-block:hover {
     width: 21.2%;
 }
 
-.aside-block-hover:hover  .aside-block__logo {
+.aside-block:hover  .aside-block__logo {
     background-size: contain;
 }
 
-.aside-block-hover:hover  .aside-block__manager {
+.aside-block:hover  .aside-block__manager {
     display: flex;
     padding-left: 47px;
 }
