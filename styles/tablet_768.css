@@ -45,6 +45,10 @@ body {
     margin: 0 auto;
 }
 
+.main-block__header {
+    width: 100%;
+}
+
 .customer-block {
     position: relative;
     justify-content: space-evenly;
