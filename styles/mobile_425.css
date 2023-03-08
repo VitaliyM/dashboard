@@ -11,8 +11,13 @@
     width: 100%;
 }
 
+.aside-block:hover .aside-block__logo {
+    padding-left: 135px;
+}
+
 .aside-block:hover .aside-block__manager {
     display: flex;
+    left: 10px;
 }
 
 .aside-block__logo {
@@ -44,8 +49,9 @@
 }
 
 .aside-block__navbar {
-    margin-top: 35px;
+    margin-top: 20px;
     padding-left: 7%;
+    gap: 0;
 }
 
 .navbar-block__list {
