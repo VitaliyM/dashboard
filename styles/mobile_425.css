@@ -146,25 +146,40 @@
     width: 37%;
 }
 
-.customer-block__country {
-    width: 30%;
-}
-
 .status-block {
     width: 25%;
 }
 
 
 .cusromer-block__mob-size {
-
+    background: url(../images/arrdown.png) no-repeat center top;
+    background-size: 40px 15px;
+    width: 100%;
+    height: 145px;
+    padding-top: 15px;
+    position: absolute;
+    top: 50px;    
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    transition: background 0.2s ease;
 }
 
 .customer-block-active {
-    height: 140px;
+    height: 200px;
     transition: height 0.2s ease;
 }
 
 .cusromer-block__mob-size-active {
     background: url(../images/arrup.png) no-repeat center bottom;
     background-size: 40px 15px;
+    transition: background 0.2s ease;    
+}
+
+.customer-block-mob__company,
+.customer-block-mob__phone,
+.customer-block-mob__email,
+.customer-block-mob__country {
+    display: flex;
+    justify-content: space-between;
 }

@@ -58,21 +58,29 @@ body {
     justify-content: space-evenly;
 }
 
+.customers-data__customers-name {
+    width: 30%;
+}
+
+.customers-data__customers-status {
+    width: 15%;
+}
+
+.customer-block__name {
+    width: 25%;
+}
+
+.status-block {
+    width: 15%;
+}
+
 .customers-data__customers-company,
 .customers-data__customers-phone,
 .customers-data__customers-email,
+.customers-data__customers-country,
 .customer-block__company,
 .customer-block__phone,
-.customer-block__email {
+.customer-block__email,
+.customer-block__country {
     display: none;
-}
-
-.cusromer-block__mob-size {
-    background: url(../images/arrdown.png) no-repeat center bottom;
-    background-size: 40px 15px;
-    width: 100%;
-    height: 15px;
-    display: block;
-    position: absolute;
-    bottom: 0;
 }
