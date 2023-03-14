@@ -17,5 +17,18 @@ let showMenu = () => {
         asideManager.style.display = 'none';
     }
 }
-
 mobileMenuBtn.onclick = showMenu;
+
+
+let cusromerDataMobileSize = document.querySelector('.cusromer-block__mob-size');
+let customerDataLine = document.querySelector('.customer-block');
+
+cusromerDataMobileSize.addEventListener('click', () => {
+    if (customerDataLine.getBoundingClientRect().height === 69) {
+        customerDataLine.classList.add('customer-block-active');
+        cusromerDataMobileSize.classList.add('cusromer-block__mob-size-active');
+    } else {
+        customerDataLine.classList.remove('customer-block-active');
+        cusromerDataMobileSize.classList.remove('cusromer-block__mob-size-active');
+    }
+})

@@ -135,13 +135,15 @@
 }
 
 .customer-block {
+    overflow: hidden;
     padding-top: 15px;
     justify-content: space-between;
     align-items: flex-start;
+    transition: height 0.2s ease;
 }
 
 .customer-block__name {
-    width: 30%;
+    width: 37%;
 }
 
 .customer-block__country {
@@ -150,4 +152,19 @@
 
 .status-block {
     width: 25%;
+}
+
+
+.cusromer-block__mob-size {
+
+}
+
+.customer-block-active {
+    height: 140px;
+    transition: height 0.2s ease;
+}
+
+.cusromer-block__mob-size-active {
+    background: url(../images/arrup.png) no-repeat center bottom;
+    background-size: 40px 15px;
 }
