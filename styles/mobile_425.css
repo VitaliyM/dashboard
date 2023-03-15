@@ -68,6 +68,7 @@
 }
 
 .main-block_customers {
+    height: 830px;
     margin-top: 25px;
 }
 
@@ -107,4 +108,11 @@
 .customers-data__text {
     padding-right: 15px;
     padding-left: 30px;
+}
+
+.customers-block__pages {
+    flex-direction: column;
+    padding-top: 5px;
+    align-items: center;
+    gap: 10px;
 }
