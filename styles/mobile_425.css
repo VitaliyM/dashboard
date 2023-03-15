@@ -171,7 +171,7 @@
 }
 
 .cusromer-block__mob-size-active {
-    background: url(../images/arrup.png) no-repeat center bottom;
+    background: #e3e3e3 url(../images/arrup.png) no-repeat center bottom;
     background-size: 40px 15px;
     transition: background 0.2s ease;    
 }
