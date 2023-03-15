@@ -5,7 +5,6 @@ let asideManager = document.querySelector('.aside-block__manager');
 
 
 let showMenu = () => {
-    console.log(asideBlock.getBoundingClientRect().height);
     if (asideBlock.getBoundingClientRect().height === 55) {
         asideBlock.style.height = 420 + 'px';
         asideLogo.style.paddingLeft = 135 + 'px';
@@ -20,15 +19,21 @@ let showMenu = () => {
 mobileMenuBtn.onclick = showMenu;
 
 
-let cusromerDataMobileSize = document.querySelector('.cusromer-block__mob-size');
-let customerDataLine = document.querySelector('.customer-block');
+let cusromerDataMobileSize = document.querySelectorAll('.cusromer-block__mob-size');
+let customerDataLine = document.querySelectorAll('.customer-block');
 
-cusromerDataMobileSize.addEventListener('click', () => {
-    if (customerDataLine.getBoundingClientRect().height === 69) {
-        customerDataLine.classList.add('customer-block-active');
-        cusromerDataMobileSize.classList.add('cusromer-block__mob-size-active');
-    } else {
-        customerDataLine.classList.remove('customer-block-active');
-        cusromerDataMobileSize.classList.remove('cusromer-block__mob-size-active');
-    }
-})
+
+for (let i = 0; i < cusromerDataMobileSize.length; i++) {
+    
+    cusromerDataMobileSize[i].addEventListener('click', () => {
+        if (customerDataLine[i].getBoundingClientRect().height === 69) {
+            customerDataLine[i].classList.add('customer-block-active');
+            cusromerDataMobileSize[i].classList.add('cusromer-block__mob-size-active');
+        } else {
+            customerDataLine[i].classList.remove('customer-block-active');
+            cusromerDataMobileSize[i].classList.remove('cusromer-block__mob-size-active');
+        }
+    })
+    
+}
+

@@ -4,26 +4,13 @@
     width: 100%;
     overflow: hidden;
     align-items: center;
+    transition: height 0.2s ease;
 }
 
 .aside-hover:hover {
     width: 100%;
+    transition: height 0.2s ease;
 }
-
-
-/* .aside-block:hover {
-    height: 420px;
-    width: 100%;
-} */
-
-/* .aside-block:hover .aside-block__logo {
-    padding-left: 135px;
-}
-
-.aside-block:hover .aside-block__manager {
-    display: flex;
-    left: 10px;
-} */
 
 .aside-block__logo {
     background-size: contain;
@@ -71,9 +58,6 @@
     display: none;
 }
 
-
-
-
 .main-block {
     width: 90%;
     padding-top: 80px;
@@ -82,9 +66,6 @@
 .main-block__header {
     margin-top: 0;
 }
-
-
-
 
 .main-block_customers {
     margin-top: 25px;
@@ -106,16 +87,13 @@
     width: 80%;
 }
 
-
-
-
 .customers-data__header {
-    justify-content: space-between;
     padding-right: 15px;
+    padding-left: 30px;
 }
 
 .customers-data__customers-name {
-    width: 38%;
+    width: 45%;
 }
 
 .customers-data__customers-country {
@@ -126,60 +104,7 @@
     width: 22%;
 }
 
-
-
-
-
 .customers-data__text {
     padding-right: 15px;
-}
-
-.customer-block {
-    overflow: hidden;
-    padding-top: 15px;
-    justify-content: space-between;
-    align-items: flex-start;
-    transition: height 0.2s ease;
-}
-
-.customer-block__name {
-    width: 37%;
-}
-
-.status-block {
-    width: 25%;
-}
-
-
-.cusromer-block__mob-size {
-    background: url(../images/arrdown.png) no-repeat center top;
-    background-size: 40px 15px;
-    width: 100%;
-    height: 145px;
-    padding-top: 15px;
-    position: absolute;
-    top: 50px;    
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-    transition: background 0.2s ease;
-}
-
-.customer-block-active {
-    height: 200px;
-    transition: height 0.2s ease;
-}
-
-.cusromer-block__mob-size-active {
-    background: #e3e3e3 url(../images/arrup.png) no-repeat center bottom;
-    background-size: 40px 15px;
-    transition: background 0.2s ease;    
-}
-
-.customer-block-mob__company,
-.customer-block-mob__phone,
-.customer-block-mob__email,
-.customer-block-mob__country {
-    display: flex;
-    justify-content: space-between;
+    padding-left: 30px;
 }
