@@ -51,6 +51,11 @@ body {
     width: 100%;
 }
 
+.main-block_customers {
+    height: auto;
+    padding-bottom: 20px;
+}
+
 .customers-data__header {
     padding-left: 40px;
     justify-content: space-between;
@@ -127,4 +132,8 @@ body {
 .customer-block-mob__country {
     display: flex;
     justify-content: space-between;
+}
+
+.customers-block__pages {
+    margin-top: 20px;
 }
